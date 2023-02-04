@@ -1,0 +1,65 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: beige;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width:1000px;
+}
+img{
+    width: 256px;
+}
+#counter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 940px;
+    background-color: white;
+    border: bisque solid 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+#shop{
+    display:flex;
+    flex-direction: column;
+    border: solid;
+    text-align: center;
+    align-self: center;
+    width:1000px;
+    background-color: aliceblue;
+
+}
+#shop article {
+    display:flex;
+    justify-content: space-between;
+}
+#shop-title span{
+    display:flex;
+    width:20%;
+
+    border: solid  1px;
+    border-bottom: solid 3px;
+    align-items: center;
+    justify-content: center;
+}
+.item span{
+    width:20%;
+    text-align: center;
+    border: solid 1px;
+}
+.item button{
+    width:20%;
+    text-align: center;
+    border: solid 1px;
+}
+.small-font{
+    display:none;
+    font-size: small;
+}
